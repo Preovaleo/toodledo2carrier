@@ -1,0 +1,13 @@
+{
+    "name": "preovaleo/toodledo2carrier",
+    "description": "Use toodledo webhook to send SMS with your carrier API",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Théo Bouge",
+            "email": "theo.bouge@gmail.com"
+        }
+    ],
+    "require": {}
+}
