@@ -1,12 +1,12 @@
 <?php
-include_once('vendor/autoload.php');
+include_once('../vendor/autoload.php');
 
 use Symfony\Component\Yaml\Yaml;
 use Symfony\Component\Yaml\Exception\ParseException;
 use Httpful\Exception\ConnectionErrorException;
 
 try {
-    $config = Yaml::parse(file_get_contents('config.yml'));
+    $config = Yaml::parse(file_get_contents('../config/config.yml'));
 } catch (ParseException $e) {
     http_response_code(500);
     echo json_encode(array(
